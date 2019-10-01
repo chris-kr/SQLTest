@@ -15,7 +15,7 @@ public class conn {
 
             BufferedReader br = new BufferedReader(new FileReader("lines.txt"));
             int asdf = 1;
-            
+            int other = 2;
             String inputLine = br.readLine();
             while (inputLine != null) {
                 System.out.println(inputLine);
